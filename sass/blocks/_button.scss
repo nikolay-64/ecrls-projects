@@ -1,0 +1,33 @@
+.content__button {
+    position: relative;
+    display: inline-block;
+    margin-top: 40px;
+    height: 54px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #FF843F;
+    border-radius: 39px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 54px;
+    color: #FFFFFF;
+
+    &::before {
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        top: 14px;
+        right: 0;
+        width: 26px;
+        height: 26px;
+
+        border: 1px solid #FFFFFF;
+        background: #FF843F;
+        color: #fff;
+        // opacity: 0.1;
+        background-image: url('./../../img/buttons/button-header-right.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

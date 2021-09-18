@@ -1,0 +1,27 @@
+.collection-center {
+    position: relative;
+    padding-top: 40px;
+}
+
+.collection__text-content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.header__title {
+    width: 52%;
+}
+
+.header__desc {
+    width: 62%;
+    margin-top: 20px;
+}
+
+.desc__title {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #040522;
+}

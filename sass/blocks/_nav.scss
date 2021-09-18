@@ -1,0 +1,23 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-list {
+    ul {
+        display: flex;
+    }
+
+    li:not(:last-child) {
+		margin-right: 40px;
+	}
+}
+
+.header__menu-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.16;
+    color: #040522;
+}
