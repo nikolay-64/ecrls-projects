@@ -1,13 +1,13 @@
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+// .nav {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
 
-.header__nav-list {
-    ul {
-        display: flex;
-    }
+.nav ul {
+     
+    display: flex;
+    
 
     li:not(:last-child) {
 		margin-right: 40px;

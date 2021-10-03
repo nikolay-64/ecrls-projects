@@ -4,7 +4,7 @@
     margin-top: 40px;
     height: 54px;
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 66px;
     background: #FF843F;
     border-radius: 39px;
     font-family: 'Roboto', sans-serif;
@@ -12,13 +12,14 @@
     font-size: 18px;
     line-height: 54px;
     color: #FFFFFF;
+    white-space: nowrap;
 
     &::before {
         content: "";
         position: absolute;
         border-radius: 50%;
         top: 14px;
-        right: 0;
+        right: 25px;
         width: 26px;
         height: 26px;
 
