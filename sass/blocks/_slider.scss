@@ -1,15 +1,17 @@
 .сarousel-wrapper {
-    margin-top: 70px;
-    margin-bottom: 150px;
+    padding-top: 70px;
+    padding-bottom: 150px;
+}
+.сarousel-wrapper-1 {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .slider-wrapper {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 80px;
     width: 362px;
-    height: 185px;
-    background-color: rgb(216, 238, 253);
+    height: auto;
 }
 
 .nav-button {
@@ -24,12 +26,12 @@
 }
 
 .nav-button-left {
-    left: -50px;
+    left: -50%;
     transform: translate(-100%, -50%);
 }
 
 .nav-button-rigth {
-    right: -50px;
+    right: -50%;
     transform: translate(100%, -50%);
 }
 
