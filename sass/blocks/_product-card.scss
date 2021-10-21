@@ -1,16 +1,16 @@
-.card-wrapper {
+.product__card {
     padding-top: 150px;
     padding-bottom: 120px;
     
 }
 
-.product__card {
+.product__card-title{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.card-desc {
+.card-link {
     font-weight: 600;
     font-size: 22px;
     line-height: 1.4;
@@ -34,7 +34,7 @@
 
 .photo-1 {
     // grid-area: "photo-1";
-    grid-row: 1/3;
+    grid-row: 1/2;
 }
 
 // .photo-2 {

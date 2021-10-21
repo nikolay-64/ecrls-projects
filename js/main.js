@@ -14,6 +14,7 @@ $(document).ready(function(){
     productCarousel.owlCarousel({
         items:1,
         loop: true,
+        smartSpeed:2000, 
         // nav: true,
         // navText: ['Prev', 'Next'],
     })
@@ -21,7 +22,7 @@ $(document).ready(function(){
     // Находим кнопки назад и вперед
     
     const buttonPrev = $('.nav-button-left');
-    const buttonNext = $('.nav-button-rigth');
+    const buttonNext = $('.nav-button-right');
 
     buttonPrev.click(function () {
         productCarousel.trigger('prev.owl.carousel');
@@ -38,5 +39,6 @@ $(document).ready(function(){
     productCarousel1.owlCarousel({
         items:1,
         loop: true,
+        smartSpeed:2000, 
     });
   });

@@ -1,12 +1,12 @@
-.сarousel-wrapper {
-    padding-top: 70px;
+.product-slider {
+    padding-top: 56px;
     padding-bottom: 150px;
 }
-.сarousel-wrapper-1 {
+.top-product-slider {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.slider-wrapper {
+.product-wrapper {
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -30,7 +30,7 @@
     transform: translate(-100%, -50%);
 }
 
-.nav-button-rigth {
+.nav-button-right {
     right: -50%;
     transform: translate(100%, -50%);
 }

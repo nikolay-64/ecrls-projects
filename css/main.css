@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -47,7 +46,7 @@ html, body {
 }
 
 .container {
-  max-width: 1175px;
+  max-width: 1176px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -301,19 +300,20 @@ html, body {
 .text-center {
   margin-top: 20px;
   text-align: center;
+  margin-bottom: 70px;
 }
 
-.сarousel-wrapper {
-  padding-top: 70px;
+.product-slider {
+  padding-top: 56px;
   padding-bottom: 150px;
 }
 
-.сarousel-wrapper-1 {
+.top-product-slider {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.slider-wrapper {
+.product-wrapper {
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -338,7 +338,7 @@ html, body {
           transform: translate(-100%, -50%);
 }
 
-.nav-button-rigth {
+.nav-button-right {
   right: -50%;
   -webkit-transform: translate(100%, -50%);
           transform: translate(100%, -50%);
@@ -358,12 +358,12 @@ html, body {
   stroke: #fff;
 }
 
-.card-wrapper {
+.product__card {
   padding-top: 150px;
   padding-bottom: 120px;
 }
 
-.product__card {
+.product__card-title {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
@@ -372,7 +372,7 @@ html, body {
           align-items: center;
 }
 
-.card-desc {
+.card-link {
   font-weight: 600;
   font-size: 22px;
   line-height: 1.4;
@@ -393,7 +393,7 @@ html, body {
 }
 
 .photo-1 {
-  grid-row: 1/3;
+  grid-row: 1/2;
 }
 
 .photo-4 {
@@ -407,6 +407,8 @@ html, body {
 .card {
   display: block;
   text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .card__img {
@@ -425,7 +427,7 @@ html, body {
 
 .card__text {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6;
   color: #040522;
   opacity: 0.7;
@@ -563,6 +565,39 @@ html, body {
   margin-right: 15px;
   flex-shrink: 0;
   width: 362px;
+}
+
+.top-brand {
+  max-width: 1570px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.brand-title {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+  margin-bottom: 70px;
+}
+
+.brand-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.16;
+  color: #E56117;
+}
+
+.brand__row {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,26 @@
+.top-brand {
+    max-width: 1570px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.brand-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.brand-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.16;
+    color: #E56117;
+}
+
+.brand__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
