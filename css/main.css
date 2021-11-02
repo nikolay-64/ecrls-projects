@@ -268,7 +268,7 @@ html, body {
   border: 1px solid #FFFFFF;
   background: #FF843F;
   color: #fff;
-  background-image: url("./../../img/buttons/button-header-right.svg");
+  background-image: url("../img/buttons/button-header-right.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
