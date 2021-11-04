@@ -59,6 +59,12 @@
     font-size: 22px;
     line-height: 1.5;
     color: #FFFFFF;
+    transition: all 0.5s ease-in;
+
+    &:hover {
+        color: orangered;
+        border-bottom: 1px solid #a6caf0;
+    }
 }
 
 .footer__nav-items {
@@ -68,12 +74,15 @@
     line-height: 1;
     text-transform: capitalize;
     opacity: 0.7;
+    transition: all 0.5s ease-in;
  
     li {
         margin-bottom: 15px;
     }
 
     a:hover {
+        transition: all 0.5s ease-in;
+        color: orangered;
         border-bottom: 1px solid #a6caf0;
     }
 }

@@ -4,18 +4,19 @@
 }
 
 .header__text-content {
+    width: 1280px;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 .header__title {
-    width: 46%;
+    width: 42%;
     margin-right: 39px;
 }
 
 .header__desc {
-    width: 62%;
+    width: 100%;
     margin-top: 20px;
 }
 
