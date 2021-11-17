@@ -15,6 +15,11 @@
     top: 0;
     right: -10px;
     transform: translate(50%, 50%);
+
+    /* Laptop */
+    @media (max-width: 991px) {
+        right: 0px;
+    }
 }
 
    .product__cart-number {
@@ -35,6 +40,11 @@
     line-height: 1.4;
     color: #FFFFFF;
     text-align: center;
+
+    /* Laptop */
+    @media (max-width: 991px) {
+        left: -6px;
+    }
 }
 
 .fa-shopping-cart {

@@ -12,6 +12,11 @@
     li:not(:last-child) {
 		margin-right: 40px;
 	}
+
+    /* Tablet */
+    @media (max-width: 768px) {
+        display: none;
+    }
 }
 
 .header__menu-link {

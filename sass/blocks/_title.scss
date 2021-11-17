@@ -15,6 +15,26 @@
     font-size: 61px;
     line-height: 1.2;
     color: $black-color;
+
+    /* desktop */
+    @media (max-width: 1199px) {
+        font-size: 56px;
+    }
+
+    /* Laptop */
+    @media (max-width: 991px) {
+        font-size: 35px;
+    }
+
+    /* Tablet */
+    @media (max-width: 768px) {
+        font-size: 30px;
+    }
+
+    /* Mobile */
+    @media (max-width: 320px) {
+        font-size: 17px;
+    }
 }
 
 .title-1 {
@@ -24,4 +44,24 @@
     line-height: 1.2;
     color: $black-color;
     text-align: center;
+
+    /* Tablet */
+    @media (max-width: 1199px) {
+        font-size: 35px;
+    }
+
+    /* Tablet */
+    @media (max-width: 768px) {
+        font-size: 30px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 575px) {
+        margin-bottom: 15px;
+    }
+
+    /* Mobile */
+    @media (max-width: 320px) {
+        font-size: 20px
+    }
 }

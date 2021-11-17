@@ -30,5 +30,32 @@
         background-image: url('../img/buttons/button-header-right.svg');
         background-repeat: no-repeat;
         background-position: center;
+
+        /* Tablet */
+        @media (max-width: 768px) {
+            top: 8px;
+        }
+
+        /* Mobile */
+        @media (max-width: 320px) {
+            top: 0;
+        }
+    }
+
+    /* Tablet */
+    @media (max-width: 768px) {
+        height: 44px;
+        line-height: 44px;
+    }
+
+    @media (max-width: 575px) {
+        margin-top: 20px;
+    }
+
+    /* Mobile */
+    @media (max-width: 320px) {
+        margin-top: 25px;
+        height: 30px;
+        line-height: 30px;
     }
 }

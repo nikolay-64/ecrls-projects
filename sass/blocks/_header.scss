@@ -3,10 +3,25 @@
     padding-bottom: 135px;
 
     background: #81c2d4;
+
+     /* Desktop */
+    @media (max-width: 1199px) {
+        padding-bottom: 40px;
+    }
+
+    @media (max-width: 575px) {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
 }
 
 .header__row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    /* Mobile */
+    @media (max-width: 320px) {
+        justify-content: center;
+    }
 }

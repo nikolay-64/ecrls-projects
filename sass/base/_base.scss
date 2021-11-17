@@ -4,6 +4,7 @@ html, body {
     line-height: 1.6875;
     color: $black-color;
     scroll-behavior: smooth;
+    overflow-x: hidden
 }
 
 .container {
@@ -21,6 +22,31 @@ html, body {
 
     &--no-padding {
         padding: 0;
+    }
+
+    /* Desktop */
+    @media (max-width: 1199px) {
+        max-width: 1075px;
+    }
+
+    /* Laptop */
+    @media (max-width: 991px) {
+        max-width: 940px;
+    }
+
+    /* Tablet */
+    @media (max-width: 767px) {
+        max-width: 710px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 575px) {
+        max-width: 520px;
+    }
+
+    /* Mobile */
+    @media (max-width: 320px) {
+        width: 290px;
     }
 }
 

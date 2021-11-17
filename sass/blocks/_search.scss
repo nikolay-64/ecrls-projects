@@ -17,6 +17,12 @@
     border: 1px solid #000000;
     border-radius: 69px;
 
+    /* Laptop */
+    @media (max-width: 991px) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
 }
 
 
