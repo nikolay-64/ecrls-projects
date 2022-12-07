@@ -1,13 +1,12 @@
 .footer {
     margin-top: auto; /* sticky footer */
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 70px 0;
     background-color: #040522;
     color: #fff;
 
     /* Tablet */
     @media (max-width: 768px) {
-        padding-top: 30px;
+        padding: 30px 0;
     }
 }
 
@@ -35,12 +34,15 @@
     /* Tablet */
     @media (max-width: 768px) {
         flex-direction: column;
-    }
-
-    /* Mobile */
-    @media (max-width: 320px) {
         justify-content: center;
         align-items: center;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 425px) {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
     }
 }
 
@@ -57,12 +59,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 15px;
+        padding: 0 0 15px 0;
+        row-gap: 20px;
     }
 
     /* Mobile */
     @media (max-width: 320px) {
-        width: 85%;
+        width: 100%;
     }
 }
 
@@ -74,13 +77,17 @@
 
 .footer-desc {
     display: block;
-    margin-top: 25px;
-    font-family: "DM Sans";
+    font-family: "DM Sans", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #ffffff;
     opacity: 0.7;
+
+    /* Tablet */
+    @media (max-width: 768px) {
+        width: 93%;
+    }
 }
 
 .footer__nav {
@@ -108,14 +115,17 @@
     /* Tablet */
     @media (max-width: 768px) {
         width: 685px;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
         justify-content: center;
     }
 
-    /* Mobile XS */
-    @media (max-width: 575px) {
-        width: 460px;
+    /* Mobile */
+    @media (max-width: 425px) {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 20px;
     }
 }
 
@@ -129,15 +139,6 @@
     /* Tablet */
     @media (max-width: 768px) {
         width: 115px;
-    }
-}
-
-.footer__nav-contacts {
-    max-width: 193px;
-
-    /* Tablet */
-    @media (max-width: 768px) {
-        width: 125px;
     }
 }
 
