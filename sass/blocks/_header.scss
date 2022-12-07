@@ -25,3 +25,10 @@
         justify-content: center;
     }
 }
+
+.header__img {
+
+    @media (max-width:779px) {
+        width: 31px;
+    }
+}

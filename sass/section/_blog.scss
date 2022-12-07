@@ -50,7 +50,6 @@
 
     /* Laptop */
     @media (max-width: 991px) {
-        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
@@ -86,14 +85,19 @@
 
     /* Desktop */
     @media (max-width: 1199px) {
-        width: 335px;
+        width: 313px;
     }
 
      /* Laptop */
      @media (max-width: 991px) {
-        &:not(:last-child) {
-            margin-bottom: 15px;
-        }
+        width: 280px;
+        // &:not(:last-child) {
+        //     margin-bottom: 15px;
+        // }
+    }
+
+    @media (max-width:779px) {
+        width: 210px;
     }
 
     /* Mobile */
@@ -105,6 +109,15 @@
 .blog-card__content {
     width: 308px;
     margin-bottom: 20px;
+
+    /* Laptop */
+    @media (max-width: 991px) {
+    width: 263px;
+    }
+
+    @media (max-width:779px) {
+        max-width: 200px;
+    }
 
     /* Mobile */
     @media (max-width: 320px) {

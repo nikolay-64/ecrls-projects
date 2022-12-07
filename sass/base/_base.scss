@@ -31,7 +31,11 @@ html, body {
 
     /* Laptop */
     @media (max-width: 991px) {
-        max-width: 940px;
+        max-width: 920px;
+    }
+
+    @media (max-width:779px) {
+        max-width: 720px;
     }
 
     /* Tablet */

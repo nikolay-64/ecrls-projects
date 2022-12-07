@@ -7,4 +7,9 @@
     font-size: 31px;
     line-height: 36px;
     color: #171FE5;
+
+    @media (max-width:779px) {
+        font-size: 26px;
+        line-height: 26px;
+    }
 }

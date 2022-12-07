@@ -1,22 +1,27 @@
 $(document).ready(function(){
-    // $("#product-carousel").owlCarousel({
-    //     items:1,
-    //     loop: true,
-    //     nav: true,
-    //     navText: ['Prev', 'Next'],
-    // });
-
+ 
     // Находим  элемент в котором будет инициализирована каруседль
     const productCarousel = $("#product-carousel");
     const productCarousel1 = $("#product-carousel-1");
 
     // Создаем карусель в элементе #product-carousel
     productCarousel.owlCarousel({
-        items:1,
-        loop: true,
-        smartSpeed:2000, 
-        // nav: true,
-        // navText: ['Prev', 'Next'],
+        items:3,
+        smartSpeed:600,
+        margin: 10, 
+        startPosition: 1,
+        responsive: {
+           0: {
+               items:1,
+           },
+           576: {
+               items:2,
+           },
+           768: {
+               items:3,
+               center: true,
+           }
+        }
     })
 
     // Находим кнопки назад и вперед
@@ -37,8 +42,21 @@ $(document).ready(function(){
 
     // Создаем карусель в элементе #product-carousel-1
     productCarousel1.owlCarousel({
-        items:1,
-        loop: true,
-        smartSpeed:2000, 
+        items:5,
+        smartSpeed:600, 
+        margin:10,
+        startPosition: 1,
+        responsive: {
+            0: {
+                items:1,
+            },
+            576: {
+                items:2,
+            },
+            768: {
+                items:3,
+                center: true,
+            }
+         }
     });
   });

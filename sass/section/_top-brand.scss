@@ -10,13 +10,8 @@
 
     /* Tablet */
     @media (max-width: 768px) {
-        padding-top: 40px;
+        padding-top: 0px;
         padding-bottom: 40px;
-    }
-
-    /* Mobile */
-    @media (max-width: 320px) {
-        padding-top: 0;
     }
 }
 
@@ -44,20 +39,16 @@
     font-size: 18px;
     line-height: 1.16;
     color: #E56117;
+
+    @media (max-width:779px) {
+        font-size: 16px;
+    }
 }
 
 .brand__row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    /* Tablet */
-    @media (max-width: 1199px) {
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        grid-gap: 30px;
-    }
 
     /* Tablet */
     @media (max-width: 768px) {
@@ -67,5 +58,10 @@
 }
 
 .brand-img {
-    width: 120px;
+    width: 200px;
+
+    @media (max-width:779px) {
+        width: 160px;
+        margin-bottom: 25px;
+    }
 }
