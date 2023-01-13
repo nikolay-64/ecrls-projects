@@ -1,77 +1,40 @@
 .header-center {
     position: relative;
-    padding-top: 40px;
-
-    @media (max-width: 575px) {
-        padding-top: 25px;
-    }
-
-    /* Mobile */
-    @media (max-width: 320px) {
-        padding-top: 25px;
-    }
 }
 
 .header__text-content {
-    width: 1237px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto; 
-
-    /* Desktop */
-    @media (max-width: 1199px) {
-        width: 1100px;
-    }
-
-    /* Laptop */
-    @media (max-width: 991px) {
-        width: 940px;
-    }
-
-    @media (max-width:779px) {
-        width: 735px;
-    }
 
     /* Tablet */
-    @media (max-width: 767px) {
-        width: 725px;
-    }
-
-    @media (max-width: 575px) {
-        width: 536px;
-    }
-
-    /* Mobile */
-    @media (max-width: 320px) {
-        flex-direction: column;
-        width: 216px;
+    @media (max-width: 768px) {
+        justify-content: center;
     }
 }
 
 .header__title {
     width: 43%;
-    margin-right: 39px;
 
-    @media (max-width:779px) {
-        width: 38%;
+    /* Desktop */
+    @media (max-width: 1024px) {
+        width: 41%;
     }
 
-    @media (max-width: 575px) {
-        width: 83%;
-    }
-
-    /* Mobile */
-    @media (max-width: 320px) {
-        width: 100%;
+    @media (max-width:768px) {
+        width: 40%;
         text-align: center;
-        margin: 0 0 15px 0;
     }
 }
 
 .header__desc {
     width: 100%;
     margin-top: 20px;
+
+    /* Tablet */
+    @media (max-width: 768px) {
+        padding: 0;
+    }
 }
 
 .desc__title {
@@ -81,10 +44,15 @@
     color: $black-color;
     opacity: 0.7;
 
-    /* Tablet */
-    @media (max-width: 991px) {
+    /* Desktop */
+    @media (max-width: 1024px) {
         font-size: 14px;
     }
+
+    // /* Mobile XS*/
+    // @media (max-width: 575px) {
+    //     font-size: 14px;
+    // }
 
     /* Mobile */
     @media (max-width: 320px) {
@@ -93,13 +61,13 @@
 }
 
 .text-center {
-    margin-top: 20px;
     text-align: center;
-    margin-bottom: 70px;
+    margin: 0 auto 70px auto;
+    width: 59%;
 
-    @media (max-width:779px) {
-        font-size: 12px;
-    }
+    // @media (max-width:768px) {
+    //     font-size: 12px;
+    // }
 
     /* Mobile XS*/
     @media (max-width: 575px) {
@@ -109,7 +77,19 @@
 
 .header__content-img {
 
-    @media (max-width:779px) {
-        width: 320px;
+    position: absolute;
+    right: 0;
+    object-fit: cover;
+    transform: translateX(15%);
+
+    /* Desktop */
+    @media (max-width: 1024px) {
+        transform: translateX(0%);
+        width: 350px;
+    }
+
+    /* Tablet */
+    @media (max-width: 768px) {
+        display: none;
     }
 }

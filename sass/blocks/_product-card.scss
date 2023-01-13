@@ -1,16 +1,9 @@
 .product__card {
-    padding-top: 150px;
     padding-bottom: 120px;
 
     /* Tablet */
-    @media (max-width: 1199px) {
-        padding-top: 0px;   
-    }
-
-    /* Tablet */
     @media (max-width: 768px) {
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 70px;
     }
 
     /* Mobile */
@@ -24,6 +17,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 70px;
+
+    /* Tablet */
+    @media (max-width: 768px) {
+        padding-bottom: 40px;
+    }
 
     /* Mobile */
     @media (max-width: 320px) {
@@ -31,11 +30,14 @@
     }
 }
 
+.product__card-text--mb {
+    margin-bottom: 0;
+}
+
 .product__card-photo {
     display: grid;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 70px;
     grid-template-columns: repeat(3, 362px);
     grid-template-rows: repeat(2,339px);
     grid-template-areas: 
@@ -44,38 +46,42 @@
     "photo-1 photo-4 photo-5";
     grid-gap: 30px;
     justify-content: center;
+    transition: all 0.3s ease-in-out;
 
     /* Desktop */
-    @media (max-width: 1199px) {
-        padding-top: 35px;
-        grid-template-columns: repeat(3, 250px);
-        grid-template-rows: repeat(2, 229px);
-    }
-
-    @media (max-width:779px) {
-        padding-top: 30px;
-        grid-template-columns: repeat(3, 216px);
-        grid-template-rows: repeat(2, 202px);
-        grid-gap: 19px;
+    @media (max-width: 1024px) {
+        grid-template-columns: repeat(3, 298px);
+        grid-template-rows: repeat(2, 276px);
     }
 
     /* Tablet */
     @media (max-width: 768px) {
-        grid-template-columns: repeat(3, 214px);
-        grid-template-rows: repeat(2, 200px);
+        grid-template-columns: repeat(3, 222px);
+        grid-template-rows: repeat(2, 207px);
+        grid-gap: 20px;
     }
 
     /* Mobile XS */
     @media (max-width: 575px) {
-        grid-template-columns: repeat(3,150px);
-        grid-template-rows: repeat(2, 139px);
+        grid-template-columns: repeat(3, 147px);
+        grid-template-rows: repeat(2, 136px);
         grid-gap: 15px;
     }
+
+    // @media (max-width: 475px) {
+    //     grid-template-columns: repeat(3, 120px);
+    //     grid-template-rows: repeat(2, 112px);
+    //     grid-gap: 10px;
+    // }
 
     /* Mobile */
     @media (max-width: 320px) {
         grid-template-columns: repeat(3, 76px);
         grid-template-rows: repeat(2, 67px);  
+    }
+
+    img:hover {
+        transform: scale(1.2);
     }
 }
 

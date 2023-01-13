@@ -7,6 +7,21 @@
     font-size: 31px;
     line-height: 36px;
     color: #171FE5;
+    transition: all 0.3s ease-in-out;
+
+    svg{
+        width: 41px;
+        height: 31px;
+        fill:#171FE5;
+
+        &:hover {
+            fill: #fff;
+        }
+    }
+
+    &:hover {
+        color: #fff;
+    }
 
     @media (max-width:779px) {
         font-size: 26px;

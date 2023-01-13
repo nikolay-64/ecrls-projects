@@ -1,12 +1,21 @@
 .card {
     display: block;
     text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 30px 42px;
+    min-height: 223px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 
-    @media (max-width:779px) {
-        padding-left: 15px;
-        padding-right: 15px;
+    /* Desktop */
+    @media (max-width: 1024px) {
+        padding: 30px 27px;
+        min-height: 213px; 
+    }
+
+    /* Tablet */
+    @media (max-width: 768px) {
+        min-height: 206px;
     }
 }
 .card__img {
@@ -23,16 +32,11 @@
     color: $black-color;
 
     /* Desktop */
-    @media (max-width: 1199px) {
-        font-size: 21px;
+    @media (max-width: 1024px) {
+        font-size: 20px;
     }
 
-    /* Laptop */
-    @media (max-width: 991px) {
-        font-size: 17px;
-    }
-
-    @media (max-width:779px) {
+    @media (max-width:768px) {
         font-size: 15px;
     }
 
@@ -47,15 +51,11 @@
     font-size: 22px;
     line-height: 1.4;
     color: #E56117;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
 
-    /* Tablet */
-    @media (max-width: 1199px) {
-        font-size: 20px;
-    }
-
-    /* Laptop */
-    @media (max-width: 991px) {
-        font-size: 16px;
+    &:hover {
+     color: #81c2d4;
     }
 }
 
@@ -67,16 +67,11 @@
     opacity: 0.7;
     
     /* Desktop */
-    @media (max-width: 1199px) {
-        font-size: 15px;
+    @media (max-width: 1024px) {
+        font-size: 14px;
     }
 
-    /* Laptop */
-    @media (max-width: 991px) {
-        font-size: 12px;
-    }
-
-    @media (max-width:779px) {
-        font-size: 12px;
+    @media (max-width:768px) {
+        width: 40%;
     }
 }

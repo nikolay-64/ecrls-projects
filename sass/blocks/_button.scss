@@ -32,14 +32,21 @@
 
         /* Tablet */
         @media (max-width: 768px) {
-            top: 8px;
+            top: 10px;
+            width: 20px;
+            height: 20px;
         }
+
+        // /* Mobile XS*/
+        // @media (max-width: 575px) {
+        //     top: 12px;
+        //     width: 18px;
+        //     height: 18px;
+        // }
 
         /* Mobile */
         @media (max-width: 320px) {
             top: 4px;
-            width: 18px;
-            height: 18px;
         }
     }
 
@@ -47,11 +54,14 @@
     @media (max-width: 768px) {
         height: 44px;
         line-height: 44px;
+        font-size: 14px;
     }
 
-    @media (max-width: 575px) {
-        margin-top: 20px;
-    }
+    // /* Mobile XS*/
+    // @media (max-width: 575px) {
+    //     margin-top: 20px;
+    //     font-size: 14px;
+    // }
 
     /* Mobile */
     @media (max-width: 320px) {

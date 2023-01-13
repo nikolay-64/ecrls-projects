@@ -42,7 +42,6 @@
 
 }
 
-
 .header__search {
     display: block;
     margin: 10px;
@@ -56,7 +55,10 @@
     opacity: 0.7;
     margin-right: 20px;
 
-    // border-right: 1px solid #e89c24;
+    /* Tablet */
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
 }
 
 .form-btn {
@@ -68,4 +70,14 @@
     top: 5px;
     left: 0;
     transform: translate(50%,50%);
+
+    /* Tablet */
+    @media (max-width: 768px) {
+        top: 3px;
+    }
+
+    /* Mobile XS*/
+    @media (max-width: 575px) {
+        top: 4px;
+    }
 }

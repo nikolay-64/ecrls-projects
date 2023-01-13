@@ -8,12 +8,10 @@ html, body {
 }
 
 .container {
-    max-width: 1176px;
+    max-width: 1192px;
     margin-left: auto;
 	margin-right: auto;
-	padding-left: 15px;
-	padding-right: 15px;
-
+    padding: 0 15px;
 
     &--fluid {
         max-width: unset;
@@ -25,35 +23,16 @@ html, body {
     }
 
     /* Desktop */
-    @media (max-width: 1199px) {
-        max-width: 1075px;
-    }
-
-    /* Laptop */
-    @media (max-width: 991px) {
-        max-width: 920px;
-    }
-
-    @media (max-width:779px) {
-        max-width: 720px;
+    @media (max-width: 1024px) {
+        padding: 0 35px;
     }
 
     /* Tablet */
-    @media (max-width: 767px) {
-        max-width: 710px;
+    @media (max-width: 768px) {
+        padding: 0 30px;
     }
 
-    /* Mobile XS */
-    @media (max-width: 575px) {
-        max-width: 520px;
-    }
-
-    /* Mobile */
-    @media (max-width: 320px) {
-        width: 290px;
-    }
 }
-
 
 .none {
     display: none;
