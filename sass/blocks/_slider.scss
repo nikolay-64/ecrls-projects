@@ -5,6 +5,11 @@
     @media (max-width: 768px) {
         padding-bottom: 70px;
     }
+
+    /* Mobile XS */
+    @media (max-width: 425px) {
+        padding-bottom: 20px;
+    }
 }
 .top-product-slider {
     padding-bottom: 120px;
@@ -12,6 +17,11 @@
     /* Tablet */
     @media (max-width: 768px) {
         padding-bottom: 70px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 425px) {
+        padding-bottom: 20px;
     }
 }
 

@@ -2,6 +2,13 @@
     max-width: 273px;
     display: flex;
     justify-content: flex-end;
+
+
+    /* Mobile XS */
+    @media (max-width: 425px) {
+        max-width: 180px;
+        justify-content: center;
+    }
 }
 
 .search-form {
@@ -36,9 +43,15 @@
     }
 
     /* Tablet */
-    @media (max-width: 769px) {
+    @media (max-width: 768px) {
         max-width: 245px;
     }  
+
+    /* Mobile XS */
+    @media (max-width: 425px) {
+        max-width: 180px;
+        padding: 0;
+    }
 
 }
 
@@ -58,6 +71,14 @@
     /* Tablet */
     @media (max-width: 768px) {
         font-size: 14px;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 425px) {
+        max-width: 180px;
+        margin: 0;
+        padding: 10px 42px 10px 40px;
+        background: none;
     }
 }
 

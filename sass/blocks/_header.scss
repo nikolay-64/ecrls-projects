@@ -3,9 +3,9 @@
     padding-bottom: 70px;
     background: #81c2d4;
 
-    @media (max-width: 575px) {
-        padding-top: 25px;
-        padding-bottom: 25px;
+    @media (max-width: 425px) {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
 
@@ -16,13 +16,14 @@
     padding-bottom: 40px;
 
     /* Mobile XS*/
-    @media (max-width: 575px) {
+    @media (max-width: 425px) {
         flex-direction: column;
-        row-gap: 10px;
+        row-gap: 20px;
     }
 
     /* Mobile */
     @media (max-width: 320px) {
         justify-content: center;
+        padding-bottom: 20px;
     }
 }

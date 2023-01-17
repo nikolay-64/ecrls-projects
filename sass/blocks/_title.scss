@@ -12,13 +12,8 @@
         font-size: 18px;
     }
 
-    @media (max-width:767px) {
+    @media (max-width:768px) {
         font-size: 16px;
-    }
-
-    /* Mobile XS*/
-    @media (max-width: 575px) {
-        font-size: 14px;
     }
 }
 
@@ -40,10 +35,11 @@
         font-size: 30px;
     }
 
-    // /* Mobile XS*/
-    // @media (max-width: 575px) {
-    //     font-size: 18px;
-    // }
+    /* Mobile XS*/
+    @media (max-width: 425px) {
+        font-size: 38px;
+        margin-top: 0;
+    }
 
     /* Mobile */
     @media (max-width: 320px) {
@@ -68,10 +64,10 @@
         font-size: 25px;
     }
 
-    // /* Mobile XS */
-    // @media (max-width: 575px) {
-    //     margin-bottom: 15px;
-    // }
+    /* Mobile XS */
+    @media (max-width: 425px) {
+        font-size: 20px;
+    }
 
     /* Mobile */
     @media (max-width: 320px) {

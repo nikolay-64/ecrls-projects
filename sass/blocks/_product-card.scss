@@ -6,11 +6,10 @@
         padding-bottom: 70px;
     }
 
-    /* Mobile */
-    @media (max-width: 320px) {
-       padding-top: 0; 
+    /* Mobile XS */
+    @media (max-width: 425px) {
+        padding-bottom: 20px;
     }
-    
 }
 
 .product__card-title{
@@ -22,11 +21,6 @@
     /* Tablet */
     @media (max-width: 768px) {
         padding-bottom: 40px;
-    }
-
-    /* Mobile */
-    @media (max-width: 320px) {
-        flex-direction: column;
     }
 }
 
@@ -62,22 +56,22 @@
     }
 
     /* Mobile XS */
-    @media (max-width: 575px) {
-        grid-template-columns: repeat(3, 147px);
-        grid-template-rows: repeat(2, 136px);
-        grid-gap: 15px;
+    @media (max-width: 425px) {
+        grid-template-columns: repeat(3, 114px);
+        grid-template-rows: repeat(2, 106px);
+        grid-gap: 11px;
     }
 
-    // @media (max-width: 475px) {
-    //     grid-template-columns: repeat(3, 120px);
-    //     grid-template-rows: repeat(2, 112px);
-    //     grid-gap: 10px;
-    // }
+    @media (max-width: 412px) {
+        grid-template-columns: repeat(3, 110px);
+        grid-template-rows: repeat(2, 102px);
+    }
 
     /* Mobile */
     @media (max-width: 320px) {
-        grid-template-columns: repeat(3, 76px);
-        grid-template-rows: repeat(2, 67px);  
+        grid-template-columns: repeat(3, 80px);
+        grid-template-rows: repeat(2, 73px);
+        grid-gap: 10px;
     }
 
     img:hover {
@@ -90,19 +84,10 @@
     grid-row: 1/2;
 }
 
-// .photo-2 {
-//     grid-area: "photo-2";
-// }
-// .photo-3 {
-//     grid-area: "photo-3";
-// }
-
 .photo-4 {
-    // grid-area: "photo-4";
     grid-column: 2/3;
 }
 
 .photo-5 {
-    // grid-area: "photo-5";
     grid-column: 3/4;
 }

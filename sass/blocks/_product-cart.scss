@@ -21,11 +21,6 @@
     right: -10px;
     transform: translate(50%, 50%);
 
-    /* Desktop */
-    @media (max-width: 1199px) {
-        right: -6px;
-    }
-
     /* Laptop */
     @media (max-width: 991px) {
         right: 0px;

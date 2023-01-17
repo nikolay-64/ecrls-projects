@@ -5,6 +5,11 @@
     @media (max-width: 768px) {
         padding-bottom: 70px;
     }
+
+    /* Mobile XS */
+    @media (max-width: 425px) {
+        padding-bottom: 20px;
+    }
 }
 
 .section-speciality__header {
@@ -27,6 +32,11 @@
     @media (max-width: 768px) {
         width: 59%;
         margin: 0 auto;
+    }
+
+    /* Mobile XS */
+    @media (max-width: 425px) {
+        width: 100%;
     }
 }
 
