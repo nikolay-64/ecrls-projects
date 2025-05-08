@@ -98,6 +98,11 @@
     right: 0;
     object-fit: cover;
     transform: translateX(15%);
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.2);
+    }
 
     /* Desktop */
     @media (max-width: 1024px) {

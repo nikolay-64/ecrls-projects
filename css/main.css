@@ -641,8 +641,12 @@ html, body {
   -o-object-fit: cover;
      object-fit: cover;
   transform: translateX(15%);
+  transition: all 0.3s ease-in-out;
   /* Desktop */
   /* Tablet */
+}
+.header__content-img:hover {
+  transform: scale(1.2);
 }
 @media (max-width: 1024px) {
   .header__content-img {
