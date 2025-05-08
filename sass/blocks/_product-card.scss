@@ -40,7 +40,7 @@
     "photo-1 photo-4 photo-5";
     grid-gap: 30px;
     justify-content: center;
-    transition: all 0.3s ease-in-out;
+    transition: all .3s ease-in;
 
     /* Desktop */
     @media (max-width: 1024px) {
@@ -77,6 +77,10 @@
     img:hover {
         transform: scale(1.2);
     }
+}
+
+.product__card-photo > * {
+	transition: all 0.3s ease-in;
 }
 
 .photo-1 {
