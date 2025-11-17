@@ -42,8 +42,9 @@
 
 .section-speciality__row {
     display: grid;
-    column-gap: 30px;
+    gap: 30px;
     grid-template-columns: repeat(auto-fit, minmax(362px, 0.1fr));
+    justify-content: space-around;
   
     /* Desktop */
     @media (max-width: 1024px) {
@@ -54,7 +55,6 @@
     @media (max-width: 768px) {
         display: flex;
         align-items: center;
-        row-gap: 30px;
         flex-wrap: wrap;
         justify-content: center;
     }

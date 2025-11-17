@@ -33,12 +33,12 @@
 
 .blog__row {
     display: grid;
-    column-gap: 37px;
+    gap: 37px;
     grid-template-columns: repeat(auto-fit, minmax(362px, 0.1fr));
+    justify-content: space-around;
 
     /* Desktop */
     @media (max-width: 1024px) {
-        column-gap: 30px;
         grid-template-columns: repeat(auto-fit, minmax(298px, 0.1fr));
     }
 
@@ -47,7 +47,6 @@
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        row-gap: 30px;
     }
 }
 
